@@ -1,13 +1,15 @@
-# arctic_plugin_latex
+# arctic_plugin_diagram
 
-[![Package Version](https://img.shields.io/hexpm/v/arctic_plugin_latex)](https://hex.pm/packages/arctic_plugin_latex)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/arctic_plugin_latex/)
+[![Package Version](https://img.shields.io/hexpm/v/arctic_plugin_diagram)](https://hex.pm/packages/arctic_plugin_diagram)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/arctic_plugin_diagram/)
+
+This uses Inkscape to generate SVG diagrams from latex code, as an Arctic parser.
 
 ```sh
-gleam add arctic_plugin_latex@1
+gleam add arctic_plugin_diagram@1
 ```
 ```gleam
-import arctic_plugin_latex
+import arctic_plugin_diagram
 
 pub fn main() {
   // TODO: An example of the project in use
