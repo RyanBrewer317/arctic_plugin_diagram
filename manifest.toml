@@ -2,7 +2,7 @@
 # You typically do not need to edit this file
 
 packages = [
-  { name = "arctic", version = "10.0.1", build_tools = ["gleam"], requirements = ["birl", "gleam_crypto", "gleam_stdlib", "gsv", "lustre", "lustre_ssg", "party", "simplifile", "snag"], otp_app = "arctic", source = "hex", outer_checksum = "E17D707DC38E731FDB8CC30BB4F74419C7489277B9B89F49B0234D02CD58B829" },
+  { name = "arctic", version = "11.0.4", build_tools = ["gleam"], requirements = ["birl", "gleam_crypto", "gleam_stdlib", "gsv", "lustre", "lustre_ssg", "party", "simplifile", "snag"], otp_app = "arctic", source = "hex", outer_checksum = "89054C36E9455E310D566D07195E0275FA5A0CBC0D4C225AAFEBC3EBD95B9F8D" },
   { name = "birl", version = "1.7.1", build_tools = ["gleam"], requirements = ["gleam_stdlib", "ranger"], otp_app = "birl", source = "hex", outer_checksum = "5C66647D62BCB11FE327E7A6024907C4A17954EF22865FE0940B54A852446D01" },
   { name = "envoy", version = "1.0.1", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "envoy", source = "hex", outer_checksum = "CFAACCCFC47654F7E8B75E614746ED924C65BD08B1DE21101548AC314A8B6A41" },
   { name = "exception", version = "2.0.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "exception", source = "hex", outer_checksum = "F5580D584F16A20B7FCDCABF9E9BE9A2C1F6AC4F9176FA6DD0B63E3B20D450AA" },
@@ -28,7 +28,7 @@ packages = [
 ]
 
 [requirements]
-arctic = { version = ">= 10.0.1 and < 11.0.0" }
+arctic = { version = ">= 11.0.4 and < 12.0.0" }
 gleam_stdlib = { version = ">= 0.34.0 and < 2.0.0" }
 gleeunit = { version = ">= 1.0.0 and < 2.0.0" }
 lustre = { version = ">= 4.5.1 and < 5.0.0" }
